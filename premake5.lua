@@ -17,7 +17,7 @@ project "GLFW"
 		"src/vulkan.c",
 		"src/window.c"
     }
-    
+
 	filter "system:linux"
 		pic "On"
 
@@ -43,7 +43,7 @@ project "GLFW"
 			"_GLFW_X11"
         }
         
-    filter "sytem:windows"
+    filter "system:windows"
         systemversion "latest"
         staticruntime "On"
 
